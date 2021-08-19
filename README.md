@@ -63,3 +63,7 @@ pip install requests
 pip install mechanize
 
 git clone https://github.com/HackerIMA/HackerIMA.git
+
+cd HackerIMA
+
+python2 Ultimate.py
