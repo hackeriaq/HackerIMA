@@ -1,9 +1,40 @@
-### Hi there 👋
+# coding=<encoding name>
+#!/usr/bin/python
+    # -*- coding: <encoding name> -*-
 
-<!--
-**HackerIMA/HackerIMA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+or::
 
-Here are some ideas to get you started:
+  #!/usr/bin/python
+    # vim: set fileencoding=<encoding name> :
+   ^[ \t\f]*#.*?coding[:=][ \t]*([-_.a-zA-Z0-9]+)
+  #!/usr/bin/python
+       # -*- coding: latin-1 -*-
+       import os, sys
+       ...
+
+       #!/usr/bin/python
+       # -*- coding: iso-8859-15 -*-
+       import os, sys
+       ...
+
+#!/usr/bin/python
+       # -*- coding: ascii -*-
+       import os, sys
+       ...
+    # This Python file uses the following encoding: utf-8
+       import os, sys
+       ...
+  #!/usr/local/bin/python
+       # coding: latin-1
+       import os, sys
+       ...
+#!/usr/local/bin/python
+       import os, sys
+       ...
+ #!/usr/local/bin/python
+          # latin-1
+          import os, sys
+          ...  
 
 # ULTIMATE
 The all new cloning tool
@@ -22,6 +53,7 @@ pkg install python2
 
 pkg install git
 
+
 pip2 install requests
 
 pip2 install mechanize
@@ -29,3 +61,5 @@ pip2 install mechanize
 pip install requests
 
 pip install mechanize
+
+git clone https://github.com/HackerIMA/HackerIMA.git
