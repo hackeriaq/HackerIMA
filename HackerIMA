@@ -63,4 +63,4 @@ pip install mechanize
 
 cd HackerIMA
 
-python2 Ultimate.py
+python2 HaackerIMA.py
