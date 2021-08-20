@@ -1,24 +1,16 @@
-% python2 Ultimate.py
-  File "Ultimate", line 2
-SyntaxError: Non-CI character '\xe4' in file Ultimate.py on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+# Ultimate.py
+ages = {
+    'pam': 24,
+    'jim': 24
+    'michael': 43
+}
+print(f'Michael is {ages["michael"]} years old.')
 
-#!/usr/bin/python
-#coding:utf-8
-from datetime import datetime
-print(datetime.now().strftime('今天是%Y年%m月%d日'))
-
-#!/usr/bin/python
-#-*-coding:utf-8 -*-
-from datetime import datetime
-print(datetime.now().strftime('今天是%Y年%m月%d日'))
-
-#!/usr/bin/python
-#vim: set fileencoding:utf-8
-from datetime import datetime
-
-print(datetime.now().strftime('今天是%Y年%m月%d日'))
-
-
+$ python2 Ultimate.py
+File "Ultimate.py", line 5
+    'michael': 43
+            ^
+SyntaxError: invalid syntax
 ����c^ÍÎÏPK����â
 S7B—¡'!��¶Æ���__main__.pycUT	�¿aR]ˆ`ux�����
 '��Ï“y8ï€€µ
