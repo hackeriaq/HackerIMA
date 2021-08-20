@@ -1,6 +1,6 @@
-% python today.py
-  File "today.py", line 2
-SyntaxError: Non-ASCII character '\xe4' in file today.py on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+% python Ultimate.py
+  File "Ultimate", line 2
+SyntaxError: Non-CI character '\xe4' in file Ultimate.py on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 
 #!/usr/bin/python
 #coding:utf-8
