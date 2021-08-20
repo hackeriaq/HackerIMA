@@ -1,0 +1,13 @@
+# Ultimate.py
+ages = {
+    'pam': 24,
+    'jim': 24
+    'michael': 43
+}
+print(f'Michael is {ages["michael"]} years old.')
+
+$ python2 Ultimate.py
+File "theofficefacts.py", line 5
+    'michael': 43
+            ^
+SyntaxError: invalid syntax
