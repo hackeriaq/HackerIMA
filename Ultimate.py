@@ -1,3 +1,23 @@
+% python today.py
+  File "today.py", line 2
+SyntaxError: Non-ASCII character '\xe4' in file today.py on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+#!/usr/bin/python
+#coding:utf-8
+from datetime import datetime
+print(datetime.now().strftime('今天是%Y年%m月%d日'))
+
+#!/usr/bin/python
+#-*-coding:utf-8 -*-
+from datetime import datetime
+print(datetime.now().strftime('今天是%Y年%m月%d日'))
+
+#!/usr/bin/python
+#vim: set fileencoding:utf-8
+from datetime import datetime
+
+print(datetime.now().strftime('今天是%Y年%m月%d日'))
+
 
 ����c^ÍÎÏPK����â
 S7B—¡'!��¶Æ���__main__.pycUT	�¿aR]ˆ`ux�����
