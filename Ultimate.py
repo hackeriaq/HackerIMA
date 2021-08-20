@@ -1,4 +1,4 @@
-% python Ultimate.py
+% python2 Ultimate.py
   File "Ultimate", line 2
 SyntaxError: Non-CI character '\xe4' in file Ultimate.py on line 2, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 
