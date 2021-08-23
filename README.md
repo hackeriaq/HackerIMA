@@ -1,18 +1,33 @@
-### Hi there 👋
+# HackerIMA
+```
+Bruteforce attack for Facebook Account
+```
 
-<!--
-**HackerIMA/HackerIMA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Install Requirements (on Linux)
+```
+>> apt-get install git python3 python3-pip python python-pip
+```
 
-Here are some ideas to get you started:
-- pkg update
-- pkg upgrade
-- pkg install python
-- pkg install python2
-- pip install requests
-- pip2 install mechanize
-- pip install requests
-- pkg install git
-- git clone https://github.com/HackerIMA/HackerIMA.git
-- cd HackerIMA
-- ls
-- python2 Ultimate.py
+## Run commands one by one
+```
+>> git clone https://https://github.com/HackerIMA/HackerIMA.git
+>> cd Facebook-BruteForce
+>> python3 -m pip install requests bs4
+>> python3 -m pip install mechanize
+>> python3 fb.py or python fb2.py
+```
+
+## Screenshots
+/storage/emulated/0/DCIM/Camera/FB_IMG_1629321526787.jpg
+
+## Protection Against Attacker
+* Use Strong Password(which contains standard password chars + longest as possible)
+* Use 2F Authentication.
+* Make location based login(+browser based).
+
+## Explore More in Hacking ...
+https://www.facebook.com/aung.aung.phyo.88/
+
+~~~
+Happy Hacking Day! (Just For Knowledge).
+~~~
