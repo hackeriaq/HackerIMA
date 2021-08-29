@@ -4,24 +4,31 @@
 
 ~ pkg update
 
-~ pkg upgrade
 
-~ pkg install git
+# pro-Syed
 
-~ pkg install python
+# installation
 
-~ pkg install python2
+$  pkg update
 
-~ pip2 install requests
+$  pkg upgrade
 
-~ pip2 install mechanize
+$  pkg install git
 
-~ git clone https://github.com/HackerIMA/HackerIMA.git
+$  pkg install python
 
-~ ls
+$  pkg install python2
 
-~ cd pro-Syed
+$  pip2 install requests
 
-~ ls
+$  pip2 install mechanize
 
-~ python2 Syed.py
+$  git clone https://github.com/HackerIMA/HackerIMA.git
+
+$  ls
+
+$  cd pro-Syed
+
+$  ls
+
+$  python2 Syed.py
